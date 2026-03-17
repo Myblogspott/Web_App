@@ -1,0 +1,13 @@
+# MCP Server + Agent Backend (Python 3.10+)
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+httpx>=0.26.0
+pydantic>=2.5.0
+python-dotenv>=1.0.0
+
+# LangChain (required for agent backend: ChatOpenAI, bind_tools, tool calling)
+langchain>=0.1.0
+langchain-openai>=0.0.5
+langchain-core>=0.1.0
+openai>=1.0.0
+pytest>=7.4.0
